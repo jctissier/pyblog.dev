@@ -1,4 +1,5 @@
-site_name: My Docs
+site_name: Pyblog
+site_url: https://jctissier.github.io/pyblog.dev/
 theme:
   name: material
   features:
