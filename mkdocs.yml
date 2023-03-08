@@ -99,7 +99,7 @@ extra:
   cdn_url: "https://d1qr8gnfeb8nmp.cloudfront.net/"
 
 
-plugins:
+#plugins:
   # - search
-  - macros
+#  - macros
       # include_dir: snippets
