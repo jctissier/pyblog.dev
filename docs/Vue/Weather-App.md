@@ -235,5 +235,5 @@ The Weather API contains a lot more fields that can be consummed for this type o
 
 All the code used for this project is available in the github repo, open an issue if you have any questions or problems.
 
-[Github Repo :simple-github:](#){ .md-button }
+[Github Repo :simple-github:](https://github.com/jctissier/weather-app-vue.git){ .md-button }
 
