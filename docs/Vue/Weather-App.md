@@ -8,6 +8,8 @@ Inspiration and boilerplate code for this project is from [AsmrProg - Weather Ap
 	<source id="mp4" src="../../assets/demo_weather_app_vue.mp4" type="video/mp4">
 </video>
 
+Try the website hosted on Netlify: [Weather App Vue](https://weather-app-vue-tutorial.netlify.app/)
+
 ## Vue 3 Setup
 For all my Vue 3 projects, Vue will be configured using Vite - [Vue 3 + Vite Setup](/vue/setup)
 
@@ -208,6 +210,19 @@ function weather_img(code) {
         </div>
     </div>
 </template>
+```
+
+## Deployment to Netlify (Free)
+Vite makes the deployment painless - follow the instructions from the [Vite docs](https://vitejs.dev/guide/static-deploy.html#netlify)
+``` bash
+# Install the Netlify CLI
+$ npm install -g netlify-cli
+
+# Create a new site in Netlify
+$ ntl init
+
+# Deploy to a unique preview URL
+$ ntl deploy
 ```
 
 ## Notes
