@@ -5,7 +5,7 @@ Inspiration and boilerplate code for this project is from [AsmrProg - Weather Ap
 
 ## Demo
 <video controls muted="true" autoplay>
-	<source id="mp4" src="/assets/demo_weather_app_vue.mp4" type="video/mp4">
+	<source id="mp4" src="assets/demo_weather_app_vue.mp4" type="video/mp4">
 </video>
 
 ## Vue 3 Setup
@@ -136,7 +136,7 @@ function weather_img(code) {
     if (code == 1000) {
         return 'clear'
     }
-    else if (code === 1030) {
+    else if (code == 1030) {
         return 'mist'
     }
     else if ([1003, 1006, 1009].includes(code)) {
