@@ -5,11 +5,8 @@ Inspiration and boilerplate code for this project is from [AsmrProg - Weather Ap
 
 ## Demo
 <video controls muted="true" autoplay>
-	<source id="mp4" src="/assets/demo_weather_app_vue.mp4" type="video/mp4">
+	<source id="mp4" src="../../assets/demo_weather_app_vue.mp4" type="video/mp4">
 </video>
-
-![Video]({{site_url}})
-
 
 ## Vue 3 Setup
 For all my Vue 3 projects, Vue will be configured using Vite - [Vue 3 + Vite Setup](/vue/setup)
@@ -32,7 +29,7 @@ Your API json response should now look like
             "code": 1183
         },
         "wind_kph": 22.0,
-        "humidity": 51,
+        "humidity": 51
     }
 }
 ```
